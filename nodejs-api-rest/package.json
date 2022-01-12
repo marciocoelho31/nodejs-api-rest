@@ -1,0 +1,31 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciocoelho31/nodejs-api-rest.git"
+  },
+  "author": "Marcio Coelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marciocoelho31/nodejs-api-rest/issues"
+  },
+  "homepage": "https://github.com/marciocoelho31/nodejs-api-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
